@@ -7,7 +7,7 @@ import java.util.List;
 
 public class FamilyTree {
     private long humansId;
-    private List<E> humanList;
+    private List<Human> humanList;
 
     public FamilyTree(List<Human> humanList) {
         this(new ArrayList());
